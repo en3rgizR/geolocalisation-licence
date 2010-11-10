@@ -1,1 +1,3 @@
 #summary résumé géolocalisation
+
+[http://code.google.com/p/geolocalisation-licence/ Retour sommaire]
