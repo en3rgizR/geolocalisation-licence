@@ -28,6 +28,9 @@ S.Guillaume -> _Carto_
 
 T.Gwenael -> _OS - Language / Chef de projet_
 
+ 
+ 
+[http://code.google.com/p/geolocalisation-licence/ Retour sommaire]
 
 
 
