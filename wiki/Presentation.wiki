@@ -1,0 +1,36 @@
+#summary présentation projet licence informatique
+
+== Introduction ==
+
+Notre projet consiste en l'étude et le développement d'une solution de géolocalisation pour le campus de l'UBO Brest prévue pour des smartphones.
+
+Sur ce Wiki nous compléterons donc au fur et à mesure les informations trouvées et les décisions prises vis-à-vis de ce projet.
+
+
+=== Membres ===
+
+Leborgne Romain
+
+Saluden Guillaume
+
+Siche Romain
+
+Trebaol Gwenael
+
+
+=== Rôles ===
+
+L.Romain -> _GPS_
+
+S.Romain -> _GPS_
+
+S.Guillaume -> _Carto_
+
+T.Gwenael -> _OS / Language_
+
+
+
+
+
+
+ 
