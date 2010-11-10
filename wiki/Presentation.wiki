@@ -26,7 +26,7 @@ S.Romain -> _GPS_
 
 S.Guillaume -> _Carto_
 
-T.Gwenael -> _OS / Language_
+T.Gwenael -> _OS / Language / Chef de projet_
 
 
 
