@@ -22,3 +22,5 @@ Sur cette page, j'afficherai les différences entre les systèmes et langage dis
  * Application sous Android : *Java* ( nouveautés à venir cf :[http://www.frandroid.com/392/on-pourra-developper-des-appli-android-dans-dautres-langages/ Autres langages Android]
  * Application sous Windows mobile : *Environnement .NET*, *Visual basic*
 
+
+[http://code.google.com/p/geolocalisation-licence/ Retour sommaire]
