@@ -1,1 +1,3 @@
 #summary Résumé page carto
+
+[http://code.google.com/p/geolocalisation-licence/ Retour sommaire]
