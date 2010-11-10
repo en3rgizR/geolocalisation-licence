@@ -1,0 +1,24 @@
+#summary os langage
+
+
+== Problématique ==
+
+Afin de mener a bien notre projet, nous devons choisir une système d'exploitation ainsi qu'un langage de développement pour la future application.
+
+Sur cette page, j'afficherai les différences entre les systèmes et langage disponibles ainsi que les choix effectués pour garder l'environnement idéal pour le développement de l'application de géolocalisation.
+
+
+== Les systèmes d'exploitation / téléphones ==
+
+ * iOS ( Apple )
+ * Symbian
+ * Android
+ * Windows mobile
+
+== Les langages de développement == 
+
+ * Application sous iOS : *Cocoa*, *Objective-C*
+ * Application sous Symbian : *Java*, *Python*, *Perl*, 
+ * Application sous Android : *Java* ( nouveautés à venir cf :[http://www.frandroid.com/392/on-pourra-developper-des-appli-android-dans-dautres-langages/ Autres langages Android]
+ * Application sous Windows mobile : *Environnement .NET*, *Visual basic*
+
