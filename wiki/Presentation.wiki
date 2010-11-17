@@ -22,9 +22,9 @@ Trebaol Gwenael
 
 L.Romain -> _GPS_
 
-S.Romain -> _GPS_
+S.Romain -> _Carto_
 
-S.Guillaume -> _Carto_
+S.Guillaume -> _GPS_
 
 T.Gwenael -> _OS - Language / Chef de projet_
 
