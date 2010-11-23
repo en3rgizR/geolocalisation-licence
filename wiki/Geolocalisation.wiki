@@ -6,23 +6,34 @@ Tout d’abord : un peu de lecture sur le fonctionnement d'un GPS. Cet article e
 Les signaux GPS sont envoyés sont forme de phrases (ou trames) selon la norme NMEA. 
 
 Il s'agit tout simplement de chaines de caractères qui commencent par : 
-**$
-**Deux lettres pour l'identifiant du recepteur :
+$
+
+Deux lettres pour l'identifiant du recepteur :
+
           -GP pour Global Positioning System.
+
           -LC Loran-C receiver.
+
           -OM Omega Navigation receiver.
+
           -II Integrated Instrumentation (eg. AutoHelm Seatalk system).
 
 Le récepteur qui nous convient donc ici c'est GP.
-**Le type.
+
+Le type.
 
 Cette norme NMEA possède plusieurs types de trame. Ces différents types possèdent des caractéristiques plus ou moins différents. Les types de la norme NMEA sont :
 
 -GGA : pour GPS Fix et Date.
+
 -GLL : pour Positionnement Géographique Longitude-Latitude.
+
 -GSA : pour DOP et satellites actifs.
+
 -GSV : pour Satellites visibles.
+
 -VTG : pour Direction (cap) et vitesse de déplacement (en noeuds et Km/h).
+
 -RMC: pour données minimales exploitables spécifiques.
 
 
