@@ -25,4 +25,6 @@ Après avoir fixé l'ellipsoïde, il reste à définir le type de la projection 
 
 - la projection azimutale
 
-Le choix du système géodésique s'est porté sur le WGS84, qui est une référence standard pour la cartographie et qui est associé au GPS. Ce système utilise la projection UTM (Universal Transverse Mercator), qui est un système de référence géospatial permettant d'identifier n'importe quel point sur notre planète. 
+Le choix du système géodésique s'est porté sur le WGS84, qui est une référence standard pour la cartographie et qui est associé au GPS. Ce système utilise la projection UTM (Universal Transverse Mercator), qui est un système de référence géospatial permettant d'identifier n'importe quel point sur notre planète.
+
+La tâche suivante sera de faire en sorte que le système géodésique interprète correctement les trames GGA dans un premier temps, puis GGL ensuite.
