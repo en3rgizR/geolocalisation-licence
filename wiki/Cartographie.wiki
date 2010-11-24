@@ -15,9 +15,9 @@ Quelles sont les caractéristiques des cartes affichées sur les GPS ?
 
 Afin de représenter la surface de la Terre, on utilise ce qu'on appelle un système géodésique, qui définit une représentation du géoïde terrestre. Le géoïde est une représentation fidèle de la surface terrestre. 
 
-Dans un soucis de performance, les systèmes géodésiques utilisent plutôt des approximations du géoïde. Les approximations les plus fréquemment utilisées sont soit sphéroïdale (ou ellipsoïdale de révolution) ou ellipsoïdale. Pour la Terre, l'approximation sphéroïdale est la plus souvent utilisée par les systèmes géodésiques. 
+Dans un soucis de performance, les systèmes géodésiques utilisent plutôt des approximations du géoïde. Les approximations les plus fréquemment utilisées sont soit de type sphéroïdale (ou ellipsoïdale de révolution), soit de type ellipsoïdale. Pour la Terre, le type d'approximation sphéroïdale est le plus souvent utilisé par les systèmes géodésiques. Il faut savoir qu'au sein d'un type d'approximation, il existe plusieurs modèles. Chaque modèle porte généralement le nom du système géodésique qui lui est appliqué.   
 
-Après avoir fixé l'ellipsoïde, il reste à définir le type de la projection à appliquer sur l'ellipsoïde afin d'obtenir une carte. Parmi les quelques types de projection, il en existe trois principaux : 
+Après avoir définit l'ellipsoïde et le système géodésique, il reste à définir le type de la projection à appliquer sur l'ellipsoïde afin d'obtenir une carte. Parmi les quelques types de projection, il en existe trois principaux : 
 
 - La projection cylindrique : (ex : projection UTM)
 
@@ -27,6 +27,4 @@ Après avoir fixé l'ellipsoïde, il reste à définir le type de la projection 
 
 Le choix du système géodésique s'est porté sur le WGS84, qui est une référence standard pour la cartographie et qui est associé au GPS. Ce système utilise la projection UTM (Universal Transverse Mercator), qui est un système de référence géospatial permettant d'identifier n'importe quel point sur notre planète.
 
-De plus, il existe un projet de carte coopérative appelé OpenStreetMap, qui utilise le système géodésique WGS84 avec la projection UTM. Ceci nous a confirmé notre choix pour ces deux éléments.
-
-La tâche suivante sera de faire en sorte que le système géodésique interprète correctement les trames GGA dans un premier temps, puis GGL ensuite.
+De plus, il existe un projet de carte coopérative appelé OpenStreetMap, qui utilise le système géodésique WGS84 avec la projection UTM. Ceci nous a confirmé notre choix pour ces deux éléments. Une étude approfondie de ce projet pourrait nous permettre de comprendre la méthode d'interprétation des trames NMEA par le système géodésique WGS84.
