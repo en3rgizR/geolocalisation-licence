@@ -27,4 +27,4 @@ Après avoir définit l'ellipsoïde et le système géodésique, il reste à dé
 
 Le choix du système géodésique s'est porté sur le WGS84, qui est une référence standard pour la cartographie et qui est associé au GPS. Ce système utilise la projection UTM (Universal Transverse Mercator), qui est un système de référence géospatial permettant d'identifier n'importe quel point sur notre planète.
 
-De plus, il existe un projet de carte coopérative appelé OpenStreetMap, qui utilise le système géodésique WGS84 avec la projection UTM. Ceci nous a confirmé notre choix pour ces deux éléments. Une étude approfondie de ce projet pourrait nous permettre de comprendre la méthode d'interprétation des trames NMEA par le système géodésique WGS84.
+De plus, il existe un projet de carte coopérative appelé OpenStreetMap, qui utilise le système géodésique WGS84 avec la projection UTM. Ceci nous a confirmé notre choix pour ces deux éléments. Une étude approfondie de ce projet pourrait nous permettre de comprendre la méthode d'interprétation des trames NMEA par le système géodésique WGS84 (http://wiki.openstreetmap.org/wiki/Mapping_techniques).
