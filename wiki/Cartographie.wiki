@@ -20,7 +20,9 @@ Dans un soucis de performance, les systèmes géodésiques utilisent plutôt des
 Après avoir fixé l'ellipsoïde, il reste à définir le type de la projection à appliquer sur l'ellipsoïde afin d'obtenir une carte. Parmi les quelques types de projection, il en existe trois principaux : 
 
 - la projection cylindrique : projection UTM
+
 - la projection conique : projection de Lambert 
+
 - la projection azimutale
 
 Le choix du système géodésique s'est porté sur le WGS84, qui est une référence standard pour la cartographie et qui est associé au GPS. Ce système utilise la projection UTM (Universal Transverse Mercator), qui est un système de référence géospatial permettant d'identifier n'importe quel point sur notre planète. 
