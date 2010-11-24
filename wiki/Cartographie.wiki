@@ -1,3 +1,26 @@
 #summary Résumé page carto
 
 [http://code.google.com/p/geolocalisation-licence/ Retour sommaire]
+
+
+Qu'est-ce que la cartographie ?
+
+
+    La cartographie est une science dont le rôle est de réaliser et d'étudier des cartes géographiques. 
+# A COMPLETER # 
+
+
+Quelles sont les caractéristiques des cartes affichées sur les GPS ?
+
+
+    Afin de représenter la surface de la Terre, on utilise ce qu'on appelle un système géodésique, qui définit une représentation du géoïde terrestre. Le géoïde est une représentation fidèle de la surface terrestre. 
+
+    Dans un soucis de performance, les systèmes géodésiques utilisent plutôt des approximations du géoïde. Les approximations les plus fréquemment utilisées sont soit sphéroïdale (ou ellipsoïdale de révolution) ou ellipsoïdale. Pour la Terre, l'approximation sphéroïdale est la plus souvent utilisée par les systèmes géodésiques. 
+
+    Après avoir fixé l'ellipsoïde, il reste à définir le type de la projection à appliquer sur l'ellipsoïde afin d'obtenir une carte. Parmi les quelques types de projection, il en existe trois principaux : 
+
+          - la projection cylindrique : projection UTM
+          - la projection conique : projection de Lambert 
+          - la projection azimutale
+
+    Le choix du système géodésique s'est porté sur le WGS84, qui est une référence standard pour la cartographie et qui est associé au GPS. Ce système utilise la projection UTM (Universal Transverse Mercator), qui est un système de référence géospatial permettant d'identifier n'importe quel point sur notre planète. 
