@@ -33,8 +33,9 @@ T.Gwenael -> _OS - Language / Chef de projet_
 
 Voici a quoi pourrait ressembler le carte de notre application :
 
-[http://staticmap.openstreetmap.de/staticmap.php?center=48.39972188957,-4.5010554808742&zoom=16&size=500x350&markers=48.401032540454,-4.5022785681856,ltblu-pushpin|48.399707643171,-4.4980514067782,ltblu-pushpin|48.399194770451,-4.5007979888087,ltblu-pushpin]
+http://staticmap.openstreetmap.de/staticmap.php?center=48.39972188957,-4.5010554808742&zoom=16&size=500x350&markers=48.401032540454,-4.5022785681856,ltblu-pushpin|48.399707643171,-4.4980514067782,ltblu-pushpin|48.399194770451,-4.5007979888087,ltblu-pushpin
  
+
 [http://code.google.com/p/geolocalisation-licence/ Retour sommaire]
 
 
