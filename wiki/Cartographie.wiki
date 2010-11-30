@@ -15,9 +15,9 @@ Quelles sont les caractéristiques des cartes affichées sur les GPS ?
 
 Afin de représenter la surface de la Terre, on utilise ce qu'on appelle un système géodésique, qui définit une représentation du géoïde terrestre. Le géoïde est une représentation fidèle de la surface terrestre. 
 
-Dans un soucis de performance, les systèmes géodésiques utilisent plutôt des approximations du géoïde. Les approximations les plus fréquemment utilisées sont soit de type sphéroïdale (ou ellipsoïdale de révolution), soit de type ellipsoïdale. Pour la Terre, le type d'approximation sphéroïdale est le plus souvent utilisé par les systèmes géodésiques. Il faut savoir qu'au sein d'un type d'approximation, il existe plusieurs modèles.  
+Dans un soucis de performance, les systèmes géodésiques utilisent plutôt des approximations du géoïde. Les approximations les plus fréquemment utilisées sont soit de type sphéroïdale (ou ellipsoïdale de révolution), soit de type ellipsoïdale. Un ellipsoïde de révolution ou sphéroïde est une surface obtenue par rotation dans l'espace d'une ellipse autour de l'un de ses axes. Pour la Terre, le type d'approximation sphéroïdale est le plus souvent utilisé par les systèmes géodésiques. Il faut savoir qu'au sein d'un type d'approximation, il existe plusieurs modèles.  
 
-Après avoir définit l'ellipsoïde et le système géodésique, il reste à définir le type de la projection à appliquer sur l'ellipsoïde afin d'obtenir une carte. Parmi les quelques types de projection, il en existe trois principaux : 
+Après avoir définit l'ellipsoïde et le système géodésique, il reste à définir le type de la projection à appliquer sur l'ellipsoïde afin d'obtenir une carte. La projection cartographique est un ensemble de techniques géodésiques permettant de représenter la surface de la Terre dans son ensemble ou en partie sur la surface plane d'une carte. Parmi les quelques types de projection, il en existe trois principaux : 
 
 - La projection cylindrique : (ex : projection UTM)
 
@@ -26,3 +26,5 @@ Après avoir définit l'ellipsoïde et le système géodésique, il reste à dé
 - La projection azimutale
 
 Le GPS utilise le système géodésique WGS84, qui est une référence standard pour la cartographie. Ce système utilise la projection UTM (Universal Transverse Mercator), qui est un système de référence géospatial permettant d'identifier n'importe quel point sur notre planète.
+
+Il existe un micro-format appelé Geo, qui exprime les coordonnées géographiques (latitude, longitude) du système géodésique WGS84 dans le format XHTML. Ce micro-format est utilisé entre autres par OpenStreetMap, un projet Open Source de cartes du monde entier librement modifiables.
