@@ -23,4 +23,32 @@ Sur cette page, j'afficherai les différences entre les systèmes et langage dis
  * Application sous Windows mobile : *Environnement .NET*, *Visual basic*
 
 
+
+
+
+
+== Choix ==
+
+Java / Web?
+
+=== Outils ===
+
+ * Base de données : *db4o*, *SQLite*
+ * Environnement de dev : *Android SDK*
+
+db4o est une sgbd orientée objet, plus simple d'utilisation pour les débutant, permet une approche objet en utilisation des requêtes en *Java* ce qui est très intéressant pour nous, elle permet également d'afficher le modèle de la base.
+
+[http://db4o.com/community/qdownload.aspx?file=java.zip Source db4o]
+
+SQLite est une sgbd simplifié, moins lourde, utile pour les petits sites / applications
+
+L'environnement de développement *Android SDK* est très intuitif et permet une programmation rapide et structurée.
+
+Source Android SDK :
+ * [http://dl.google.com/android/android-sdk_r07-windows.zip Windows]
+ * [http://dl.google.com/android/android-sdk_r07-mac_x86.zip Mac]
+ * [http://dl.google.com/android/android-sdk_r07-linux_x86.tgz Linux]
+
+
+
 [http://code.google.com/p/geolocalisation-licence/ Retour sommaire]
