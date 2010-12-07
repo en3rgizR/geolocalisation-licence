@@ -18,7 +18,7 @@ Dans un soucis de performance, les systèmes géodésiques utilisent plutôt des
 
 Après avoir définit l'ellipsoïde et le système géodésique, il reste à définir le type de la projection à appliquer sur l'ellipsoïde afin d'obtenir une carte. La projection cartographique est un ensemble de techniques géodésiques permettant de représenter la surface de la Terre dans son ensemble ou en partie sur la surface plane d'une carte. Parmi les quelques types de projection, il en existe trois principaux : 
 
-    * la projection cylindrique : (ex : projection UTM)
+    * la projection cylindrique (ex : projection UTM)
     * la projection conique (ex : projection de Lambert) 
     * la projection azimutale
 
