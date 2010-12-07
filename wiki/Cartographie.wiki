@@ -18,12 +18,10 @@ Dans un soucis de performance, les systèmes géodésiques utilisent plutôt des
 
 Après avoir définit l'ellipsoïde et le système géodésique, il reste à définir le type de la projection à appliquer sur l'ellipsoïde afin d'obtenir une carte. La projection cartographique est un ensemble de techniques géodésiques permettant de représenter la surface de la Terre dans son ensemble ou en partie sur la surface plane d'une carte. Parmi les quelques types de projection, il en existe trois principaux : 
 
-- La projection cylindrique : (ex : projection UTM)
-
-- La projection conique (ex : projection de Lambert) 
-
-- La projection azimutale
+    * la projection cylindrique : (ex : projection UTM)
+    * la projection conique (ex : projection de Lambert) 
+    * la projection azimutale
 
 Le GPS utilise le système géodésique WGS84, qui est une référence standard pour la cartographie. Ce système utilise la projection UTM (Universal Transverse Mercator), qui est un système de référence géospatial permettant d'identifier n'importe quel point sur notre planète.
 
-Il existe un micro-format appelé Geo, qui exprime les coordonnées géographiques (latitude, longitude) du système géodésique WGS84 dans le format XHTML. Ce micro-format est utilisé entre autres par OpenStreetMap, un projet Open Source de cartes du monde entier librement modifiables.
+Il existe un micro-format appelé Geo, qui exprime les coordonnées géographiques (latitude, longitude) du système géodésique WGS84 dans le format XHTML. Ce micro-format est utilisé entre autres par OpenStreetMap, un projet Open Source de cartes du monde entier librement modifiables. Ce projet permet d'exporter des cartes sous différents formats tels que PNG, JPEG, SVG, PDF, Postscript, HTML et XML.
