@@ -1,4 +1,4 @@
-#summary résumé géolocalisation
+#summary Explication sur la géolocalisation
 #labels Phase-Requirements
 Tout d’abord : un peu de lecture sur le fonctionnement d'un GPS. Cet article est concis et très facile à comprendre.
 ===> http://www.cnetfrance.fr/produits/fonctionnement-localisation-gps-conseils-pratique-39362575.htm
