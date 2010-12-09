@@ -1,4 +1,4 @@
-#summary Résumé page carto
+#summary Explication de la cartographie.
 
 [http://code.google.com/p/geolocalisation-licence/ Retour sommaire]
 
