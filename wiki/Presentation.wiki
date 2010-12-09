@@ -1,4 +1,4 @@
-#summary présentation projet licence informatique
+#summary Présentation du projet de géolocalisation
 
 == Introduction ==
 
