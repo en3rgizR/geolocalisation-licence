@@ -1,4 +1,4 @@
-#summary os langage
+#summary Explications et présentation des OS et langage de développement
 
 
 == Problématique ==
