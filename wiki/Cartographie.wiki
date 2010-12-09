@@ -12,7 +12,7 @@ La cartographie est une science dont le rôle est de réaliser et d'étudier des
 Quelles sont les caractéristiques des cartes affichées sur les GPS ?
 
 
-Afin de représenter la surface de la Terre, on utilise ce qu'on appelle un système géodésique, qui définit une représentation du géoïde terrestre. Le géoïde est une représentation fidèle de la surface terrestre. 
+Afin de représenter la surface de la Terre, on utilise en premier lieu ce qu'on appelle un système géodésique, qui définit une représentation du géoïde terrestre. Le géoïde est une représentation fidèle de la surface terrestre. 
 
 Dans un soucis de performance, les systèmes géodésiques utilisent plutôt des approximations du géoïde. Les approximations les plus fréquemment utilisées sont soit de type sphéroïdale (ou ellipsoïdale de révolution), soit de type ellipsoïdale. Un ellipsoïde de révolution ou sphéroïde est une surface obtenue par rotation dans l'espace d'une ellipse autour de l'un de ses axes. Pour la Terre, le type d'approximation sphéroïdale est le plus souvent utilisé par les systèmes géodésiques. Il faut savoir qu'au sein d'un type d'approximation, il existe plusieurs modèles.  
 
