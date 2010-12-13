@@ -9,19 +9,30 @@ Qu'est-ce que la cartographie ?
 La cartographie est une science dont le rôle est de réaliser et d'étudier des cartes géographiques.
 
 
-Quelles sont les caractéristiques des cartes affichées sur les GPS ?
+Que faut-il pour créer une carte ?
 
 
-Afin de représenter la surface de la Terre, on utilise en premier lieu ce qu'on appelle un système géodésique, qui définit une représentation du géoïde terrestre. Le géoïde est une représentation fidèle de la surface terrestre. 
+Une carte est créée grâce à trois éléments : le géoïde terrestre, le système géodésique et la projection cartographique.
 
-Dans un soucis de performance, les systèmes géodésiques utilisent plutôt des approximations du géoïde. Les approximations les plus fréquemment utilisées sont soit de type sphéroïdale (ou ellipsoïdale de révolution), soit de type ellipsoïdale. Un ellipsoïde de révolution ou sphéroïde est une surface obtenue par rotation dans l'espace d'une ellipse autour de l'un de ses axes. Pour la Terre, le type d'approximation sphéroïdale est le plus souvent utilisé par les systèmes géodésiques. Il faut savoir qu'au sein d'un type d'approximation, il existe plusieurs modèles.  
+Le point de départ est le géoïde terrestre, qui est un représentation fidèle de la surface terrestre.
 
-Après avoir définit l'ellipsoïde et le système géodésique, il reste à définir le type de la projection à appliquer sur l'ellipsoïde afin d'obtenir une carte. La projection cartographique est un ensemble de techniques géodésiques permettant de représenter la surface de la Terre dans son ensemble ou en partie sur la surface plane d'une carte. Parmi les quelques types de projection, il en existe trois principaux : 
+Dans un souci de performance, le géoïde n'est jamais utilisé en tant que tel en cartographie. On utilise plutôt une approximation du géoïde, très souvent représentée par un sphéroïde (ou ellipsoïde de révolution). Cette approximation forme ce que l'on appelle le système géodésique. Un système géodésique est un système de référence permettant d'exprimer les positions au voisinage de la Terre. Il existe plusieurs systèmes géodésiques, les uns se différenciant des autres par les dimensions du sphéroïde. Parmi les plus connus, on peut citer le système géodésique WGS84 (World Geodetic System), mondialement utilisé, ou le RGF93 (Réseau Géodésique Français), utilisé en France comme son nom l'indique.
+
+Nous arrivons maintenant au dernier élément, à savoir la projection cartographique. C'est un ensemble de techniques géodésiques qui permet de représenter la surface de la Terre dans son ensemble ou en partie sur la surface plane d'une carte. Il existe trois principaux types de projection cartographique : 
 
     * la projection cylindrique (ex : projection UTM)
     * la projection conique (ex : projection de Lambert) 
     * la projection azimutale
 
-Le GPS utilise le système géodésique WGS84, qui est une référence standard pour la cartographie. Ce système utilise la projection UTM (Universal Transverse Mercator), qui est un système de référence géospatial permettant d'identifier n'importe quel point sur notre planète.
+Associée au système géodésique, cela nous donne une carte telle que nous les connaissons.
 
-Afin de rendre les coordonnées GPS utilisables dans une application, il existe un micro-format appelé Geo, qui exprime les coordonnées géographiques (latitude, longitude) du système géodésique WGS84 dans le format XHTML. Ce micro-format est utilisé entre autres par OpenStreetMap, un projet Open Source de cartes du monde entier librement modifiables. Ce projet permet, entre autres, d'exporter des cartes sous différents formats tels que PNG, JPEG, SVG, PDF, Postscript, HTML et XML.
+En ce qui concerne la technologie GPS, elle utilise le système géodésique WGS84, qui est une référence standard pour la cartographie, ainsi que la projection UTM (Universal Transverse Mercator).
+
+
+Comment faire le lien entre la géolocalisation et la cartographie ?
+
+
+Comme il l'est expliqué dans la partie Géolocalisation, les satellites GPS envoient des trames NMEA au récepteur GPS qui affiche les données des trames sur la carte. Afin d'en apprendre plus sur le lien entre ces trames et la carte, nous nous sommes intéressés à un projet appelé OpenStreetMap, projet qui a pour but de créer des cartes libres du monde sous licence libre, en utilisant entre autres le GPS. Une raison supplémentaire de notre intérêt pour ce projet est que la mairie de Brest l'utilise pour son wiki.
+Concernant le lien entre les trames NMEA et la carte, OpenStreetMap utilise un micro-format appelé Geo, qui permet d'exprimer des coordonnées géographiques (latitude, longitude) du système géodésique WGS84 dans le format XHTML, format que nous connaissons bien, donc facilement exploitable.
+De plus, ce projet nous a renseignés sur les formats des cartes que l'on pourrait utiliser. Il existe donc différents formats pour ces cartes, des formats de type image (PNG, JPEG, SVG) qui sont soit exportables en tant qu'image, soit exportables en étant imbriquée dans du code (XHTML, XML, PDF, PostScript).
+Les cartes affichées par OpenStreetMap sont un assemblage d'images au format PNG, nous nous sommes donc orientés vers ce format de cartes pour notre application.
