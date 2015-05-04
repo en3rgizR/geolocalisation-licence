@@ -1,0 +1,51 @@
+## Problématique ##
+
+Afin de mener a bien notre projet, nous devons choisir une système d'exploitation ainsi qu'un langage de développement pour la future application.
+
+Sur cette page, j'afficherai les différences entre les systèmes et langage disponibles ainsi que les choix effectués pour garder l'environnement idéal pour le développement de l'application de géolocalisation.
+
+
+## Les systèmes d'exploitation / téléphones ##
+
+  * iOS ( Apple )
+  * Symbian
+  * Android
+  * Windows mobile
+
+## Les langages de développement ##
+
+  * Application sous iOS : **Cocoa**, **Objective-C**
+  * Application sous Symbian : **Java**, **Python**, **Perl**,
+  * Application sous Android : **Java** ( nouveautés à venir cf :[Autres langages Android](http://www.frandroid.com/392/on-pourra-developper-des-appli-android-dans-dautres-langages/)
+  * Application sous Windows mobile : **Environnement .NET**, **Visual basic**
+
+
+
+
+
+
+## Choix ##
+
+Java / Web?
+
+### Outils ###
+
+  * Base de données : **db4o**, **SQLite**
+  * Environnement de dev : **Android SDK**
+
+db4o est une sgbd orientée objet, plus simple d'utilisation pour les débutant, permet une approche objet en utilisation des requêtes en **Java** ce qui est très intéressant pour nous, elle permet également d'afficher le modèle de la base.
+
+[Source db4o](http://db4o.com/community/qdownload.aspx?file=java.zip)
+
+SQLite est une sgbd simplifié, moins lourde, utile pour les petits sites / applications
+
+L'environnement de développement **Android SDK** est très intuitif et permet une programmation rapide et structurée.
+
+Source Android SDK :
+  * [Windows](http://dl.google.com/android/android-sdk_r07-windows.zip)
+  * [Mac](http://dl.google.com/android/android-sdk_r07-mac_x86.zip)
+  * [Linux](http://dl.google.com/android/android-sdk_r07-linux_x86.tgz)
+
+
+
+[Retour sommaire](http://code.google.com/p/geolocalisation-licence/)

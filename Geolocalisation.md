@@ -1,0 +1,61 @@
+Tout d’abord : un peu de lecture sur le fonctionnement d'un GPS. Cet article est concis et très facile à comprendre.
+===> http://www.cnetfrance.fr/produits/fonctionnement-localisation-gps-conseils-pratique-39362575.htm
+
+Les signaux GPS sont envoyés sont forme de phrases (ou trames) selon la norme NMEA.
+
+Il s'agit tout simplement de chaines de caractères qui commencent par :
+$
+
+Deux lettres pour l'identifiant du recepteur :
+
+> -GP pour Global Positioning System.
+
+> -LC Loran-C receiver.
+
+> -OM Omega Navigation receiver.
+
+> -II Integrated Instrumentation (eg. AutoHelm Seatalk system).
+
+Le récepteur qui nous convient donc ici c'est GP.
+
+Le type.
+
+Cette norme NMEA possède plusieurs types de trame. Ces différents types possèdent des caractéristiques plus ou moins différents. Les types de la norme NMEA sont :
+
+-GGA : pour GPS Fix et Date.
+
+-GLL : pour Positionnement Géographique Longitude-Latitude.
+
+-GSA : pour DOP et satellites actifs.
+
+-GSV : pour Satellites visibles.
+
+-VTG : pour Direction (cap) et vitesse de déplacement (en noeuds et Km/h).
+
+-RMC: pour données minimales exploitables spécifiques.
+
+
+Les types qui risquent de nous intéresser sont donc GGA et GGL.
+Le type GGA possède en plus du type GGL l'altitude (en mètre). Pour les premiers tests je propose d'utiliser le type GGL (peut-être plus souple à utilisé car moin d'infos) et de ne gérer que la latitude et la longitude. Si ce dernier marche nous pourront facilement implémenter quelque chose avec le type GGA. Nous demanderons conseil sur ce choix à notre tuteur lors de la réunion du 24/11/2010.
+
+Après de nombreuses recherches, j'ai trouvé un logiciel d'acquisition de signaux GPS, je viens de le tester, il à l'air de marcher, je l'ai donc déposé dans la rubrique "Download". J'ai pu réaliser une acquisition de signaux NMEA de type : GGL.
+Voici les résultats :
+
+$GPGLL,0000.72577,S,00002.91089,W,160548.26,A\*0A
+$GPGLL,0000.72577,S,00002.91089,W,160722.27,A\*05
+$GPGLL,0000.72577,S,00002.91089,W,160723.29,A\*0A
+$GPGLL,0000.72577,S,00002.91089,W,160724.30,A\*05
+
+Explications de la 1ere trame :
+0000.72577,S : Latitude 0°.72' Sud
+00002.91089,W : Longitude 2°.91' Ouest
+160548.26 : Heure de réception du signal : 16h05 48sec et 26 centième
+A : Signal Données valides
+0A : Checksum
+
+
+Prochaine étape : mise en relation avec la cartographie.
+
+
+
+[Retour sommaire](http://code.google.com/p/geolocalisation-licence/)
